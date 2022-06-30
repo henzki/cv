@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+    <img src="images/up-arrow.png" width="50px" height="50px" onclick="topFunction()" id="goUp"
+        title="Go to top"></button>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">CV</a>
+        <a href="#aboutme">About me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+
+    <div class="flexbox-container" id="aboutme">
+
+        <h1 style="width: 100%;">Hello there! My name is Henna.</h1>
+        <h2 style="width: 100%;">Welcome to my CV!</h2>
+        <article class="item">
+            <h2>Personal information</h2>
+            <div class="avatar"></div>
+            <p>
+                Name: Henna Paananen <br>
+                Age: 28 years<br>
+                Location: Helsinki, Finland
+            </p>
+        </article>
+        <article class="item">
+            <h2>Interests</h2>
+            <div class="laptop"></div>
+            <p>
+
+                I enjoy working both with Front-End and Back-End Development. <br>
+                <br>
+                Most importantly I would like to work at a company <br>
+                where I can use and improve my coding skills. <br>
+            </p>
+        </article>
+        <article class="item">
+            <h2>A little about me</h2>
+            <p class="yellow-text">
+                Programming Wizard
+            </p>
+            <p>
+                At least that is what I have been called sometimes. I like to create different kinds of applications and
+                solve problems in code. <br>
+                I am very goal-oriented and will find ways to make things work. <br>
+                I think that it is fun to learn new Frameworks and new methods to do different tasks.
+            </p>
+
+            <p class="yellow-text">
+                Design thinking
+            </p>
+            <p>
+                Empathize - Define - Ideate - Protype - Test <br>
+                I got familiar with steps of Design thinking in my exchange studies while working on a project for a
+                company.
+            </p>
+            <p class="yellow-text">
+                Self-motivated learner
+            </p>
+            <p>
+                I would describe myself as a curious learner of anything new. <br>
+                I will probably be one of those people who learn new things and skills throughout their lives.
+                For me it is important to constantly develop myself into a better and wiser version of myself.
+            </p>
+        </article>
+    </div>
+
+    <div class="picture">
+    </div>
+
+
+    <div class="flexbox-container" id="education">
+        <h1>Education</h1>
+        <article class="item">
+            <h2>Academic Degree</h2>
+
+            <img src="images/education.png" width="100px" height="100px" class="education-image">
+            <p>
+
+                BBA, information technology <br>
+                Haaga-Helia University of Applied Sciences <br>
+
+            </p>
+            <p class="yellow-text">
+                2021 -> <br>
+            </p>
+            <p>
+                Profile studies: <br>
+                Software Engineering <br>
+                <br>
+                Exchange semester <br>
+                Fontys University of Applied Sciences <br>
+            </p>
+            <p class="yellow-text">
+                2/2022 - 7/2022 <br>
+            </p>
+            <p>
+                Program: <br>
+                Media Design
+            </p>
+        </article>
+        <article class="item">
+            <h2>College</h2>
+            <img src="images/education.png" width="100px" height="100px" class="education-image">
+            <p>
+                Eiran aikuislukio <br>
+            </p>
+            <p class="yellow-text">
+                2016-2018 <br>
+            </p>
+            <p>
+                Written subjects: <br>
+                Mathematics, Psychology, <br>
+                Finnish language, English language and Swedish language. <br>
+            </p>
+        </article>
+    </div>
+
+    <div class="picture">
+    </div>
+
+    <div class="flexbox-container" id="experience">
+        <h1>Experience</h1>
+        <article class="item">
+            <img src="images/laptop.jpg" height="450px" class="responsive-image">
+            <h2>IT Experience</h2>
+            <p>
+                Professio: Customer Data Trainee
+                Updating the customer data of the company.
+                Reporting to company lead.
+                Working with Python code.
+            </p>
+            <h2>Customer Service Experience</h2>
+            <p>
+                Several Customer Service jobs:
+                Working in different teams with different kinds of people.
+                Using several different systems.
+                Taking care of customer needs and building a customer-oriented attitude.
+            </p>
+        </article>
+    </div>
+
+    <div class="picture">
+    </div>
+
+    <div class="flexbox-container" id="portfolio">
+        <h1>Portfolio</h1>
+        <article class="item">
+            <h2>Brandsystem for Stuurmen company</h2>
+            <img src="images/brandsystem.png" height="450px" class="responsive-image">
+            <p>
+                Spring 2022 in my exchange studies I created a brand system system for a company called Stuurmen. The
+                idea is that they are able to easily add, modify, view and delete a brand guide. There is a login system
+                that let's anyone view the brand guides, but you have to login to get to the dashboard.
+            </p>
+            <h2>Fitness App</h2>
+            <img src="images/fitnessapp.png" height="450px" class="responsive-image">
+            <p>
+                The Fitness App will give you workout inspiration by giving access to different workout moves, gives you
+                a possibility to keep a journal in it and you can also check your daily, weekly and monthly steps from
+                it.
+                In the app you can search for movements by bodypart categories or by searching by the targeted area.
+
+                The app is developed with React Native and the workout moves are fetched from an API called ExerciseDB
+                on RapidApi.
+            </p>
+            <h2>And more to come!</h2>
+        </article>
+    </div>
+
+    <div class="picture">
+    </div>
+
+    <div class="flexbox-container" id="contact">
+        <h1>Contact</h1>
+        <article class="item">
+            <h2>Contact information</h2>
+            <p>
+                E-mail: henna.paananen1@outlook.com<br>
+                GitHub: https://github.com/henzki <br>
+            </p>
+            <p>
+                <a href="mailto:henna.paananen1@outlook.com"><img src="images/email.png" width="50px" height="50px"
+                        class="contact-images"></a>
+                <a href="https://github.com/henzki"><img src="images/github.png" width="50px" height="50px"
+                        class="contact-images"></a>
+            </p>
+        </article>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
