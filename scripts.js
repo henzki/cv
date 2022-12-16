@@ -1,14 +1,12 @@
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
+function responsive() {
+    var x = document.getElementById("topnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
 }
-
-
 
 var goUp = document.getElementById("goUp");
 
@@ -21,7 +19,6 @@ function scrollFunction() {
         goUp.style.display = "none";
     }
 }
-
 
 function topFunction() {
     document.body.scrollTop = 0;
